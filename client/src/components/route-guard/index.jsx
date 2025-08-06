@@ -1,6 +1,7 @@
 import { Navigate, useLocation } from "react-router-dom";
 import { Fragment } from "react";
 
+
 function RouteGuard({ authenticated, user, element }) {
   const location = useLocation();
 
