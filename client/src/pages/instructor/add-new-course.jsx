@@ -18,6 +18,7 @@ import {
 import { useContext, useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 
+
 function AddNewCoursePage() {
   const {
     courseLandingFormData,
