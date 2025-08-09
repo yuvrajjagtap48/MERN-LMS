@@ -20,6 +20,7 @@ function InstructorDashboardpage() {
   }
 
   useEffect(() => {
+
     fetchAllCourses();
   }, []);
 
