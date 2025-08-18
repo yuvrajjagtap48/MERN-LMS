@@ -11,7 +11,7 @@ const getAllStudentViewCourses = async (req, res) => {
     } = req.query;
 
     console.log(req.query, "req.query");
-
+    
     let filters = {};
     if (category.length) {
       filters.category = { $in: category.split(",") };
