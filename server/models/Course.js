@@ -29,7 +29,7 @@ const courseSchema = new mongoose.Schema({
             studentEmail: String
         }
     ],
-    curriculum: [LeactureSchema],
+    curriculum: [LectureSchema],
     isPublised: Boolean,
 });
 
