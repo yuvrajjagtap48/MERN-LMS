@@ -6,7 +6,6 @@ export const signUpFormControls = [
     type: "text",
     componentType: "input",
   },
-  
   {
     name: "userEmail",
     label: "User Email",
