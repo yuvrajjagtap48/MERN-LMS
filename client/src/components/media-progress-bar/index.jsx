@@ -5,7 +5,6 @@ function MediaProgressbar({ isMediaUploading, progress }) {
   const [showProgress, setShowProgress] = useState(false);
   const [animatedProgress, setAnimatedProgress] = useState(0);
 
-
   useEffect(() => {
     if (isMediaUploading) {
       setShowProgress(true);
